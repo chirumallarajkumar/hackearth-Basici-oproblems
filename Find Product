@@ -1,0 +1,9 @@
+N = int(input())
+A = map(int, input().split())
+product = 1
+
+for i in A:
+
+        product = (product*i) % (10**9 +7)
+ 
+print(product)
