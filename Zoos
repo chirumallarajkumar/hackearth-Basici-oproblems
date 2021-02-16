@@ -1,0 +1,9 @@
+x = input()
+z=x.count('z')
+o=x.count('o')
+z=2*z
+if(z==o): 
+ 
+   print('Yes')
+else:
+    print('No')
