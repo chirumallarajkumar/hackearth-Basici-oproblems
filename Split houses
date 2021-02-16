@@ -1,0 +1,10 @@
+n=int(input())
+txt = input()
+x = txt.replace(".", "B")
+if(n<=20 and  "HH" not in x):
+    print("YES")
+    print(x)
+else:
+    print("NO")
+            
+
