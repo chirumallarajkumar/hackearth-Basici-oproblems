@@ -1,0 +1,9 @@
+testCases = int(input())
+for i in range(testCases):
+    stringA = input()
+    stringB = input()
+    for letter in stringA:
+        if stringB.__contains__(letter):
+            stringA = stringA.replace(letter, "", 1)
+            stringB = stringB.replace(letter, "", 1)
+    print(len(stringA + stringB))
