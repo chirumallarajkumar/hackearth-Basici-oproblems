@@ -1,0 +1,16 @@
+t = int(input())
+for i in range(t):
+    g,p=map(int, input().split())
+    s=int(input())
+    gc=0
+    pc=0
+    for j in range(s):
+        green,purple=map(int, input().split())
+        if(green==1 and purple==1):
+            gc=gc+1
+            pc=pc+1
+        if(green==0 and purple==1):
+            pc=pc+1    
+        if(green==1 and purple==0):
+            gc=gc+1
+    print(min((gc*g+pc*p),(gc*p+pc*g)))
