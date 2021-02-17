@@ -1,0 +1,16 @@
+x = int(input())
+vowels=['a','e','i','o','u']
+for w in range(x):
+    count=0
+    y = int(input())
+    s = input().lower()
+    for i in range(y-1):
+        if s[i] not in vowels:
+            if s[i+1] in vowels:
+                count+=1
+    print(count)
+           
+       
+       
+    
+        
