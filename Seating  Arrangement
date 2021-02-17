@@ -1,0 +1,31 @@
+x = int(input())
+for w in range(x):
+    w = int(input())
+    i=w%12
+    if(i==0):
+        print(w-11,"WS")
+    elif(i==11):
+        print(w-9,"MS")
+    elif(i==10):
+        print(w-7,"AS")
+    elif(i==9):
+        print(w-5,"AS")
+    elif(i==8):
+        print(w-3,"MS")
+    elif(i==7):
+        print(w-1,"WS")
+    elif(i==1):
+        print(w+11,"WS")
+    elif(i==2):
+        print(w+9,"MS")
+    elif(i==3):
+        print(w+7,"AS")
+    elif(i==4):
+        print(w+5,"AS")
+    elif(i==5):
+        print(w+3,"MS")
+    elif(i==6):
+        print(w+1,"WS")
+        
+    
+        
