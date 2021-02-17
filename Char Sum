@@ -1,0 +1,5 @@
+k=input()
+u=0
+for m in k:
+    u=u+(ord(m)-96)
+print(u)
