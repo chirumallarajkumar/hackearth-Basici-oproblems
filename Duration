@@ -1,0 +1,7 @@
+t=int(input())
+for m in range(t):
+    a,b,c,d = map(int,input().split())
+    s=a*60+b
+    e=c*60+d
+    d=e-s
+    print(int(d/60),d%60)
