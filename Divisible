@@ -1,0 +1,14 @@
+t = int(input())
+x = list(input().split())
+count=0
+k=""
+for j in x:
+    count+=1
+    if(count<=t/2):
+        k=k+j[0]
+    else:
+        k=k+j[-1]
+if(int(k)%11==0):
+    print("OUI")
+else:
+    print("NON")
